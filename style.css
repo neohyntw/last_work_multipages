@@ -52,11 +52,13 @@ table {
 	box-sizing: border-box;
 }
 
-h3{
+
+
+h4{
 	font-size: 20px;
 }
 
-h2	{
+h3	{
 	font-size: 30px;}
 
 body *, body *::before, body *::after {
@@ -65,17 +67,16 @@ body *, body *::before, body *::after {
 }   
 
 .the-logo{
-	background: url(images/logo.png) no-repeat center center;
-	width: 174px;
+	background: url(images/logo.png) no-repeat bottom center;
+	width: 170px;
+	height: 48px;
 	display: block;
 	text-indent: 101%;
 	overflow: hidden;
 	white-space: nowrap;
 }
 
-.footer .the-logo{
-	height: 45px;
-}
+
 
 .title {margin-bottom: 20px; letter-spacing: 2px;}
 
@@ -138,7 +139,7 @@ body *, body *::before, body *::after {
 	padding: 20px;
 }
 
-.header h1{
+.header h2{
 	font-size: 36px;
 	color: #00cc99;
 	line-height: 1.5;
@@ -215,7 +216,7 @@ body *, body *::before, body *::after {
 	padding-bottom: 20px;
 }
 
-.course ul li h3{
+.course ul li h4{
 	text-align: center;
 	padding-bottom: 10px;
 	color: #4a4a4a;
@@ -269,7 +270,7 @@ body *, body *::before, body *::after {
 	padding-top: 100px;
 }
 
-.info h2{
+.info h3{
 	line-height: 1.5;
 	width: 50%;
 }
@@ -327,7 +328,7 @@ body *, body *::before, body *::after {
 	cursor: pointer;
 }
 
-.coursepage .headline h1{
+.coursepage .headline h2{
 	color: #fff!important;
 	line-height: 1;
 }
@@ -348,7 +349,7 @@ body *, body *::before, body *::after {
 	padding: 40px 0;
 }
 
-.profile h2{
+.profile h3{
 	margin-top: 60px;
 }
 
@@ -400,7 +401,7 @@ body *, body *::before, body *::after {
 	display: flex;
 }
 
-.register h2{
+.register h3{
 	padding: 0 20%;
 	line-height: 1.5;
 }
@@ -416,7 +417,7 @@ body *, body *::before, body *::after {
 	text-align: center;
 }
 
-.faq h2{
+.faq h3{
 	padding: 100px 0 20px;
 }
 
@@ -434,7 +435,7 @@ body *, body *::before, body *::after {
 	padding: 40px 10%;
 }
 
-.faq-content h2{
+.faq-content h3{
 	margin-top: 20px;
 }
 
