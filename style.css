@@ -233,7 +233,7 @@ body *, body *::before, body *::after {
 	text-align: center;
 }
 
-.compare table tr td{
+.compare table tr td, .compare table tr th{
 	padding: 14px 0;
 }
 
@@ -448,7 +448,7 @@ body *, body *::before, body *::after {
 	color: #69695e;
 }
 
-.qna small{
+.qna .small{
 	font-size: 14px;
 	color: #9b9b9b;
 }
